@@ -1,0 +1,16 @@
+[project]
+name = "sleep-clinic-analyzer"
+version = "1.0.0"
+description = "Interactive AI-powered dashboard for sleep clinic location analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.32.0",
+    "pandas>=2.2.0",
+    "plotly>=5.19.0",
+    "statsmodels>=0.14.0",
+    "groq>=0.4.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
