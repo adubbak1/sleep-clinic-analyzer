@@ -62,18 +62,6 @@ streamlit run app.py
 
 The app will open automatically in your browser at `http://localhost:8501`
 
-### API Key Setup (Local Development)
-
-For AI features to work locally, you need a Groq API key:
-
-1. Get a free API key from https://console.groq.com
-2. Create `.streamlit/secrets.toml` in the project root
-3. Add your key:
-
-```toml
-GROQ_API_KEY = "your_groq_api_key_here"
-```
-
 ## Project Structure
 
 ```
