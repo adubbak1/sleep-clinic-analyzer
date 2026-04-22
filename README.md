@@ -75,6 +75,8 @@ GROQ_API_KEY = "your_groq_api_key_here"
 ```
 
 ## Project Structure
+
+```
 sleep-clinic-analyzer/
 ├── app.py                    # Main Streamlit application
 ├── data/
@@ -85,6 +87,7 @@ sleep-clinic-analyzer/
 ├── requirements.txt          # pip dependencies
 ├── .gitignore                # Git ignore rules
 └── README.md                 # This file
+```
 
 ## Usage Guide
 
