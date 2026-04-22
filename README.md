@@ -34,7 +34,7 @@ This application analyzes CDC PLACES health data to identify optimal locations f
 
 ## App Deployment URL
 
-🚀 **Live App:** [Will be updated after deployment]
+🚀 **Live App:** [https://team18-sleep-clinic.streamlit.app](https://team18-sleep-clinic.streamlit.app)
 
 ## Local Setup Instructions
 
