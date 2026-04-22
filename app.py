@@ -28,12 +28,8 @@ st.markdown("### Finding Optimal Locations for Sleep Clinic Placement")
 @st.cache_data
 def load_data():
     import os
-    # Get the directory where this script is located
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Go up one level to project directory
-    project_dir = os.path.dirname(script_dir)
-    # Build path to data file
-    data_path = os.path.join(project_dir, 'data', 'counties_ranked.csv')
+    data_path = os.path.join(script_dir, 'data', 'counties_ranked.csv')
     
     df = pd.read_csv(data_path)
     
