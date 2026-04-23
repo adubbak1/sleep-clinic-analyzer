@@ -122,9 +122,11 @@ CDC PLACES 2022-2023 dataset
 ## Team
 
 **Team 18:**
-- Ruthvika Salloju
-- Neha Nannapaneni
 - Akshitha Dubbaka
+- Neha Nannapaneni
+- Ruthvika Salloju
+
+
 
 **Course:** ITCS 5122 U02 - Visual Analytics  
 **Institution:** UNC Charlotte  
