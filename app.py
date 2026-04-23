@@ -352,7 +352,6 @@ Provide 3-4 bullet points with actionable business insights. Be specific and men
             
             insights = chat_completion.choices[0].message.content
             
-            st.success("🤖 **AI-Generated Insights:**")
             st.markdown(insights)
             
         except Exception as e:
