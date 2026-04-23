@@ -296,8 +296,6 @@ Only respond with valid JSON, no other text."""
             
             response = chat_completion.choices[0].message.content
             
-            st.success(f"🤖 AI Understanding: {response}")
-            
             import json
             try:
                 filters = json.loads(response)
